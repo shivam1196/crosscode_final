@@ -6,7 +6,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.ashi.cross_code.MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/crossword"
+        android:textColor="#2f06fa"
+        android:text="Cross-Word"
+        android:textSize="50sp"/>
     <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/crossword">
+    <HorizontalScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
     <TableLayout
@@ -2499,5 +2511,6 @@
         android:textOn=""/>
         </TableRow>
     </TableLayout>
+    </HorizontalScrollView>
     </ScrollView>
 </RelativeLayout>
