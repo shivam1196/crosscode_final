@@ -968,6 +968,10 @@ public class MainActivity extends AppCompatActivity {
                             t37.setText(number);
                             t37.setTextOff(number);
                             t37.setChecked(false);
+                            if(t37.getTextOff()!="R")
+                            {
+                                q4++;
+                            }
                         }
                     });
                 }
@@ -1262,6 +1266,10 @@ public class MainActivity extends AppCompatActivity {
                             t51.setText(number);
                             t51.setTextOff(number);
                             t51.setChecked(false);
+                            if(t51.getTextOff()!="A")
+                            {
+                                q4++;
+                            }
                         }
                     });
                 }
@@ -1626,6 +1634,10 @@ public class MainActivity extends AppCompatActivity {
                             t66.setText(number);
                             t66.setTextOff(number);
                             t66.setChecked(false);
+                            if(t66.getTextOff()!="M")
+                            {
+                                q4++;
+                            }
                         }
                     });
                 }
@@ -1850,6 +1862,10 @@ public class MainActivity extends AppCompatActivity {
                             t75.setText(number);
                             t75.setTextOff(number);
                             t75.setChecked(false);
+                            if(t75.getTextOff()!="A")
+                            {
+                                q4++;
+                            }
                         }
                     });
                 }
@@ -1898,6 +1914,11 @@ public class MainActivity extends AppCompatActivity {
                             t77.setText(number);
                             t77.setTextOff(number);
                             t77.setChecked(false);
+                            if(t77.getTextOff()!="C")
+                            {
+                                q4++;
+                            }
+
                         }
                     });
                 }
