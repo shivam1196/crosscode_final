@@ -44,10 +44,10 @@ class MyAsync extends AsyncTask <String,TextView,Void>{
 
     @Override
     protected void onPostExecute(Void aVoid) {
-        super.onPostExecute(aVoid);
         if (response==200)
         {
             mText.setText("Submmission succesfull");
         }
+        super.onPostExecute(aVoid);
     }
 }
