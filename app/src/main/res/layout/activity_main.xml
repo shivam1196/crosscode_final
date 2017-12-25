@@ -350,12 +350,14 @@
         android:textStyle="bold"
         android:layout_below="@+id/hsv"
         />
+
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/sv"
         android:layout_marginBottom="50dp"
-        android:layout_below="@+id/txtTime">
+        android:layout_below="@+id/txtTime"
+        android:fillViewport="true">
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -367,14 +369,12 @@
              android:textSize="30sp"
              android:textStyle="bold"
              android:textColor="#000"/>
-         <ImageView
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:src="@drawable/snip1"/>
-          <ImageView
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
-              android:src="@drawable/snip2"/>
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"></android.support.v4.view.ViewPager>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
