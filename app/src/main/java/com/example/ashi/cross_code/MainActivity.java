@@ -3,6 +3,7 @@ package com.example.ashi.cross_code;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
@@ -13,11 +14,13 @@ public class MainActivity extends AppCompatActivity {
     ToggleButton t41,t42,t43,t44,t45,t46,t47,t48,t49,t50,t51,t52,t53,t54,t55,t56,t57,t58,t59,t60,t61,t62,t63,t64,t65,t66,t67,t68,t69,t70,t71,t72,t73,t74,t75,t76,t77,t78,t79,t80;
     ToggleButton t81,t82,t83,t84,t85,t86,t87,t88,t89,t90,t91,t92,t93,t94,t95,t96,t97,t98,t99,t100,t101,t102,t103,t104,t105,t106,t107,t108,t109,t110,t111,t112,t113,t114,t115,t116,t117,t118,t119;
     RadioGroup l1;
-    int q1=0,q2=0,q3=0,q4=0,q5=0,q6=0,q7=0,q8=0,q9=0,q10=0,q11=0,q12=0,q13=0,q14=0,q15=0,q16=0;
+    Button submit;
+    Boolean q1=false,q2=false,q3=false,q4=false,q5=false,q6=false,q7=false,q8=false,q9=false,q10=false,q11=false,q12=false,q13=false,q14=false,q15=false,q16=false;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        submit=findViewById(R.id.submit);
         l1=findViewById(R.id.numbers);
         t1=findViewById(R.id.toggle0);
         t1.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
@@ -34,10 +37,6 @@ public class MainActivity extends AppCompatActivity {
                             t1.setText(number);
                             t1.setTextOff(number);
                             t1.setChecked(false);
-                            if(t1.getTextOff()!="A")
-                            {
-                                q1++;
-                            }
                         }
                     });
                 }
@@ -62,10 +61,6 @@ public class MainActivity extends AppCompatActivity {
                             t2.setText(number);
                             t2.setTextOff(number);
                             t2.setChecked(false);
-                            if(t2.getTextOff()!="D")
-                            {
-                                q1++;
-                            }
                         }
                     });
                 }
@@ -90,10 +85,6 @@ public class MainActivity extends AppCompatActivity {
                             t3.setText(number);
                             t3.setTextOff(number);
                             t3.setChecked(false);
-                            if(t3.getTextOff()!="O")
-                            {
-                                q1++;
-                            }
                         }
                     });
                 }
@@ -118,10 +109,6 @@ public class MainActivity extends AppCompatActivity {
                             t4.setText(number);
                             t4.setTextOff(number);
                             t4.setChecked(false);
-                            if(t4.getTextOff()!="B")
-                            {
-                                q1++;
-                            }
                         }
                     });
                 }
@@ -146,10 +133,6 @@ public class MainActivity extends AppCompatActivity {
                             t5.setText(number);
                             t5.setTextOff(number);
                             t5.setChecked(false);
-                            if(t5.getTextOff()!="E")
-                            {
-                                q1++;
-                            }
                         }
                     });
                 }
@@ -174,10 +157,6 @@ public class MainActivity extends AppCompatActivity {
                             t6.setText(number);
                             t6.setTextOff(number);
                             t6.setChecked(false);
-                            if(t6.getTextOff()!="A")
-                            {
-                                q1++;
-                            }
                         }
                     });
                 }
@@ -202,10 +181,6 @@ public class MainActivity extends AppCompatActivity {
                             t7.setText(number);
                             t7.setTextOff(number);
                             t7.setChecked(false);
-                            if(t7.getTextOff()!="C")
-                            {
-                                q1++;
-                            }
                         }
                     });
                 }
@@ -230,10 +205,6 @@ public class MainActivity extends AppCompatActivity {
                             t8.setText(number);
                             t8.setTextOff(number);
                             t8.setChecked(false);
-                            if(t8.getTextOff()!="R")
-                            {
-                                q1++;
-                            }
                         }
                     });
                 }
@@ -258,10 +229,6 @@ public class MainActivity extends AppCompatActivity {
                             t9.setText(number);
                             t9.setTextOff(number);
                             t9.setChecked(false);
-                            if(t9.getTextOff()!="O")
-                            {
-                                q1++;
-                            }
                         }
                     });
                 }
@@ -286,10 +253,6 @@ public class MainActivity extends AppCompatActivity {
                             t10.setText(number);
                             t10.setTextOff(number);
                             t10.setChecked(false);
-                            if(t10.getTextOff()!="B")
-                            {
-                                q1++;
-                            }
                         }
                     });
                 }
@@ -314,10 +277,6 @@ public class MainActivity extends AppCompatActivity {
                             t11.setText(number);
                             t11.setTextOff(number);
                             t11.setChecked(false);
-                            if(t11.getTextOff()!="A")
-                            {
-                                q1++;
-                            }
                         }
                     });
                 }
@@ -342,10 +301,6 @@ public class MainActivity extends AppCompatActivity {
                             t12.setText(number);
                             t12.setTextOff(number);
                             t12.setChecked(false);
-                            if(t12.getTextOff()!="T")
-                            {
-                                q1++;
-                            }
                         }
                     });
                 }
@@ -370,11 +325,6 @@ public class MainActivity extends AppCompatActivity {
                             t13.setText(number);
                             t13.setTextOff(number);
                             t13.setChecked(false);
-                            if(t13.getTextOff()!="R")
-                            {
-                                q2++;
-                                q1++;
-                            }
                         }
                     });
                 }
@@ -399,10 +349,7 @@ public class MainActivity extends AppCompatActivity {
                             t14.setText(number);
                             t14.setTextOff(number);
                             t14.setChecked(false);
-                            if(t14.getTextOff()!="E")
-                            {
-                                q1++;
-                            }
+
                         }
                     });
                 }
@@ -427,10 +374,6 @@ public class MainActivity extends AppCompatActivity {
                             t15.setText(number);
                             t15.setTextOff(number);
                             t15.setChecked(false);
-                            if(t15.getTextOff()!="A")
-                            {
-                                q1++;
-                            }
                         }
                     });
                 }
@@ -455,10 +398,6 @@ public class MainActivity extends AppCompatActivity {
                             t16.setText(number);
                             t16.setTextOff(number);
                             t16.setChecked(false);
-                            if(t16.getTextOff()!="D")
-                            {
-                                q1++;
-                            }
                         }
                     });
                 }
@@ -483,10 +422,6 @@ public class MainActivity extends AppCompatActivity {
                             t17.setText(number);
                             t17.setTextOff(number);
                             t17.setChecked(false);
-                            if(t17.getTextOff()!="E")
-                            {
-                                q1++;
-                            }
                         }
                     });
                 }
@@ -511,10 +446,6 @@ public class MainActivity extends AppCompatActivity {
                             t18.setText(number);
                             t18.setTextOff(number);
                             t18.setChecked(false);
-                            if(t18.getTextOff()!="R")
-                            {
-                                q1++;
-                            }
                         }
                     });
                 }
@@ -539,10 +470,6 @@ public class MainActivity extends AppCompatActivity {
                             t19.setText(number);
                             t19.setTextOff(number);
                             t19.setChecked(false);
-                            if(t19.getTextOff()!="D")
-                            {
-                                q1++;
-                            }
                         }
                     });
                 }
@@ -567,10 +494,6 @@ public class MainActivity extends AppCompatActivity {
                             t20.setText(number);
                             t20.setTextOff(number);
                             t20.setChecked(false);
-                            if(t20.getTextOff()!="C")
-                            {
-                                q1++;
-                            }
                         }
                     });
                 }
@@ -595,10 +518,6 @@ public class MainActivity extends AppCompatActivity {
                             t21.setText(number);
                             t21.setTextOff(number);
                             t21.setChecked(false);
-                            if(t21.getTextOff()!="O")
-                            {
-                                q2++;
-                            }
                         }
                     });
                 }
@@ -623,10 +542,6 @@ public class MainActivity extends AppCompatActivity {
                             t22.setText(number);
                             t22.setTextOff(number);
                             t22.setChecked(false);
-                            if(t22.getTextOff()!="B")
-                            {
-                                q2++;
-                            }
                         }
                     });
                 }
@@ -940,10 +855,6 @@ public class MainActivity extends AppCompatActivity {
                             t36.setText(number);
                             t36.setTextOff(number);
                             t36.setChecked(false);
-                            if(t36.getTextOff()!="C")
-                            {
-                                q3++;
-                            }
                         }
                     });
                 }
@@ -968,10 +879,6 @@ public class MainActivity extends AppCompatActivity {
                             t37.setText(number);
                             t37.setTextOff(number);
                             t37.setChecked(false);
-                            if(t37.getTextOff()!="R")
-                            {
-                                q4++;
-                            }
                         }
                     });
                 }
@@ -996,6 +903,7 @@ public class MainActivity extends AppCompatActivity {
                             t38.setText(number);
                             t38.setTextOff(number);
                             t38.setChecked(false);
+
                         }
                     });
                 }
@@ -1020,10 +928,7 @@ public class MainActivity extends AppCompatActivity {
                             t39.setText(number);
                             t39.setTextOff(number);
                             t39.setChecked(false);
-                            if(t39.getTextOff()!="L")
-                            {
-                                q3++;
-                            }
+
                         }
                     });
                 }
@@ -1072,6 +977,7 @@ public class MainActivity extends AppCompatActivity {
                             t41.setText(number);
                             t41.setTextOff(number);
                             t41.setChecked(false);
+
                         }
                     });
                 }
@@ -1096,6 +1002,7 @@ public class MainActivity extends AppCompatActivity {
                             t42.setText(number);
                             t42.setTextOff(number);
                             t42.setChecked(false);
+
                         }
                     });
                 }
@@ -1144,6 +1051,7 @@ public class MainActivity extends AppCompatActivity {
                             t44.setText(number);
                             t44.setTextOff(number);
                             t44.setChecked(false);
+
                         }
                     });
                 }
@@ -1168,6 +1076,7 @@ public class MainActivity extends AppCompatActivity {
                             t45.setText(number);
                             t45.setTextOff(number);
                             t45.setChecked(false);
+
                         }
                     });
                 }
@@ -1216,6 +1125,7 @@ public class MainActivity extends AppCompatActivity {
                             t47.setText(number);
                             t47.setTextOff(number);
                             t47.setChecked(false);
+
                         }
                     });
                 }
@@ -1266,10 +1176,7 @@ public class MainActivity extends AppCompatActivity {
                             t51.setText(number);
                             t51.setTextOff(number);
                             t51.setChecked(false);
-                            if(t51.getTextOff()!="A")
-                            {
-                                q4++;
-                            }
+
                         }
                     });
                 }
@@ -1390,10 +1297,7 @@ public class MainActivity extends AppCompatActivity {
                             t56.setText(number);
                             t56.setTextOff(number);
                             t56.setChecked(false);
-                            if(t56.getTextOff()!="I")
-                            {
-                                q3++;
-                            }
+
                         }
                     });
                 }
@@ -1634,10 +1538,6 @@ public class MainActivity extends AppCompatActivity {
                             t66.setText(number);
                             t66.setTextOff(number);
                             t66.setChecked(false);
-                            if(t66.getTextOff()!="M")
-                            {
-                                q4++;
-                            }
                         }
                     });
                 }
@@ -1662,6 +1562,7 @@ public class MainActivity extends AppCompatActivity {
                             t67.setText(number);
                             t67.setTextOff(number);
                             t67.setChecked(false);
+
                         }
                     });
                 }
@@ -1686,10 +1587,6 @@ public class MainActivity extends AppCompatActivity {
                             t68.setText(number);
                             t68.setTextOff(number);
                             t68.setChecked(false);
-                            if(t68.getTextOff()!="P")
-                            {
-                                q3++;
-                            }
                         }
                     });
                 }
@@ -1714,6 +1611,7 @@ public class MainActivity extends AppCompatActivity {
                             t69.setText(number);
                             t69.setTextOff(number);
                             t69.setChecked(false);
+
                         }
                     });
                 }
@@ -1738,10 +1636,7 @@ public class MainActivity extends AppCompatActivity {
                             t70.setText(number);
                             t70.setTextOff(number);
                             t70.setChecked(false);
-                            if(t70.getTextOff()!="B")
-                            {
-                                q3++;
-                            }
+
                         }
                     });
                 }
@@ -1862,10 +1757,7 @@ public class MainActivity extends AppCompatActivity {
                             t75.setText(number);
                             t75.setTextOff(number);
                             t75.setChecked(false);
-                            if(t75.getTextOff()!="A")
-                            {
-                                q4++;
-                            }
+
                         }
                     });
                 }
@@ -1914,10 +1806,7 @@ public class MainActivity extends AppCompatActivity {
                             t77.setText(number);
                             t77.setTextOff(number);
                             t77.setChecked(false);
-                            if(t77.getTextOff()!="C")
-                            {
-                                q4++;
-                            }
+
 
                         }
                     });
@@ -1943,6 +1832,7 @@ public class MainActivity extends AppCompatActivity {
                             t78.setText(number);
                             t78.setTextOff(number);
                             t78.setChecked(false);
+
                         }
                     });
                 }
@@ -1991,10 +1881,7 @@ public class MainActivity extends AppCompatActivity {
                             t80.setText(number);
                             t80.setTextOff(number);
                             t80.setChecked(false);
-                            if(t80.getTextOff()!="O")
-                            {
-                                q3++;
-                            }
+
                         }
                     });
                 }
@@ -2091,6 +1978,7 @@ public class MainActivity extends AppCompatActivity {
                             t84.setText(number);
                             t84.setTextOff(number);
                             t84.setChecked(false);
+
                         }
                     });
                 }
@@ -2283,10 +2171,7 @@ public class MainActivity extends AppCompatActivity {
                             t92.setText(number);
                             t92.setTextOff(number);
                             t92.setChecked(false);
-                            if(t92.getTextOff()!="A")
-                            {
-                                q3++;
-                            }
+
                         }
                     });
                 }
@@ -2407,10 +2292,7 @@ public class MainActivity extends AppCompatActivity {
                             t97.setText(number);
                             t97.setTextOff(number);
                             t97.setChecked(false);
-                            if(t97.getTextOff()!="R")
-                            {
-                                q3++;
-                            }
+
                         }
                     });
                 }
@@ -2435,10 +2317,7 @@ public class MainActivity extends AppCompatActivity {
                             t98.setText(number);
                             t98.setTextOff(number);
                             t98.setChecked(false);
-                            if(t98.getTextOff()!="D")
-                            {
-                                q3++;
-                            }
+
                         }
                     });
                 }
@@ -2487,6 +2366,7 @@ public class MainActivity extends AppCompatActivity {
                             t100.setText(number);
                             t100.setTextOff(number);
                             t100.setChecked(false);
+
                         }
                     });
                 }
@@ -2950,6 +2830,24 @@ public class MainActivity extends AppCompatActivity {
                 {
                     l1.setVisibility(View.INVISIBLE);
                 }
+            }
+        });
+        submit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(t1.getTextOff().toString()=="A"&&t2.getTextOff().toString()=="D"&&t3.getTextOff().toString()=="O"&&t4.getTextOff().toString()=="B"&&t5.getTextOff().toString()=="E"&&t6.getTextOff().toString()=="A"&&t7.getTextOff().toString()=="C"&&t8.getTextOff().toString()=="R"&&t9.getTextOff().toString()=="O"&&t10.getTextOff().toString()=="B"&&t11.getTextOff().toString()=="A"&&t12.getTextOff().toString()=="T"&&t13.getTextOff().toString()=="R"&&t14.getTextOff().toString()=="E"&&t15.getTextOff().toString()=="A"&&t16.getTextOff().toString()=="D"&&t17.getTextOff().toString()=="E"&&t18.getTextOff().toString()=="R"&&t19.getTextOff().toString()=="D"&&t20.getTextOff().toString()=="C")
+                {
+                    q1=true;
+                }
+                if(t13.getTextOff().toString()=="R"&&t21.getTextOff().toString()=="O"&&t22.getTextOff().toString()=="B"&&t24.getTextOff().toString()=="E"&&t25.getTextOff().toString()=="R"&&t26.getTextOff().toString()=="T")
+                {
+                    q2=true;
+                }
+                if(t36.getTextOff().toString()=="C"&&t39.getTextOff().toString()=="L"&&t56.getTextOff().toString()=="I"&&t68.getTextOff().toString()=="P"&&t70.getTextOff().toString()=="B"&&t80.getTextOff().toString()=="O"&&t92.getTextOff().toString()=="A"&&t97.getTextOff().toString()=="R"&&t98.getTextOff().toString()=="D")
+                {
+                    q3=true;
+                }
+
             }
         });
         }
