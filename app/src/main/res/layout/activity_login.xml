@@ -18,7 +18,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Email"
+        android:hint="Full Name"
         android:layout_marginLeft="10dp"
         android:id="@+id/email"
         android:layout_marginRight="10dp"
@@ -30,8 +30,8 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:id="@+id/password"
-        android:hint="Password"
-        android:inputType="textPassword"
+        android:hint="Sap Id"
+        android:inputType="number"
         android:layout_marginTop="30dp"/>
     <Button
         android:layout_width="wrap_content"

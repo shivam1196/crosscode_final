@@ -10,24 +10,26 @@ import android.widget.Toast;
 
 public class Login extends AppCompatActivity {
     Button login;
-    EditText email,password;
+    EditText name,sapid;
     String e,p;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         login=findViewById(R.id.login);
-        email=findViewById(R.id.email);
-        password=findViewById(R.id.password);
+        name=findViewById(R.id.email);
+        sapid=findViewById(R.id.password);
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                e = email.getText().toString();
-                p = password.getText().toString();
+                e = name.getText().toString();
+                p = sapid.getText().toString();
                 if (e.equals("") || p.equals("")) {
-                    Toast.makeText(Login.this, "Please enter email and password", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Login.this, "Please enter Name and Sapid", Toast.LENGTH_SHORT).show();
                 }
-                else {
+                else
+                {
+
                     Intent i = new Intent(Login.this, Rules.class);
                     startActivity(i);
                 }
