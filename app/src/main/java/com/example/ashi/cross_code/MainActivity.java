@@ -2,10 +2,6 @@ package com.example.ashi.cross_code;
 
 import android.content.Intent;
 import android.os.CountDownTimer;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentStatePagerAdapter;
-import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -16,9 +12,6 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ToggleButton;
-
-import java.util.ArrayList;
-import java.util.List;
 import java.util.concurrent.TimeUnit;
 public class MainActivity extends AppCompatActivity {
     ToggleButton t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11,t12,t13,t14,t15,t16,t17,t18,t19,t20,t21,t22,t23,t24,t25,t26,t27,t28,t29,t30,t31,t32,t33,t34,t35,t36,t37,t38,t39;
@@ -27,44 +20,12 @@ public class MainActivity extends AppCompatActivity {
     RadioGroup l1;
     Button submit;
     TextView mTextView;
-    ViewPager mViewPager;
-    private List<String> ques;
     boolean[] questions;
     private static final String FORMAT = "%02d:%02d:%02d";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ques= new ArrayList<>();
-        ques.add("Across: 1) requirement to open pdf file");
-        ques.add("DOWN: 2) he created the internet protocol suite alongside father of internet");
-        ques.add("Down: 3) Some of your computerís memory set aside to temporarily store copied or cut information ");
-        ques.add("Down: 4) it was the first computer to use moving head magnetic storage device.");
-        ques.add("Down: 5) staring you in the face, twice");
-        ques.add("Across: 6) A type of Internet web site thatís a closed community protected by a password and/or firewalls ");
-        ques.add("Across: 7) Can create havoc if so minded");
-        ques.add("Across: 8) one of a few words that can be typed using first alphabetical row of keyboard");
-        ques.add("Down: 9) what you see is what you get");
-        ques.add("Down: 10) a form of communication on social media");
-        ques.add("Across: 11) this mail is dissapointing");
-        ques.add("Down: 12) your keyboard and mouse could do this");
-        ques.add("Across: 13) In tungsten-inert gas arc welding, a __________ electrode is used.");
-        ques.add("Across: 14) brings sound to speakers");
-        ques.add("Across: 15) aimless exploration");
-        mViewPager=(ViewPager)findViewById(R.id.viewPager);
-        FragmentManager fragmentManager = getSupportFragmentManager();
-        mViewPager.setAdapter(new FragmentStatePagerAdapter(fragmentManager) {
-            @Override
-            public Fragment getItem(int position) {
-                String question = ques.get(position);
-                return Questions.getInstance(question);
-            }
-
-            @Override
-            public int getCount() {
-                return ques.size();
-            }
-        });
         submit=findViewById(R.id.submit);
         questions=new boolean[16];
         mTextView=findViewById(R.id.txtTime);
