@@ -1,5 +1,6 @@
 package com.example.ashi.cross_code;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -10,17 +11,18 @@ import android.widget.RadioGroup;
 import android.widget.ToggleButton;
 
 public class MainActivity extends AppCompatActivity {
-    ToggleButton t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11,t12,t13,t14,t15,t16,t17,t18,t19,t20,t21,t22,t24,t25,t26,t27,t28,t29,t30,t31,t32,t33,t34,t35,t36,t37,t38,t39,t40;
+    ToggleButton t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11,t12,t13,t14,t15,t16,t17,t18,t19,t20,t21,t22,t23,t24,t25,t26,t27,t28,t29,t30,t31,t32,t33,t34,t35,t36,t37,t38,t39;
     ToggleButton t41,t42,t43,t44,t45,t46,t47,t48,t49,t50,t51,t52,t53,t54,t55,t56,t57,t58,t59,t60,t61,t62,t63,t64,t65,t66,t67,t68,t69,t70,t71,t72,t73,t74,t75,t76,t77,t78,t79,t80;
     ToggleButton t81,t82,t83,t84,t85,t86,t87,t88,t89,t90,t91,t92,t93,t94,t95,t96,t97,t98,t99,t100,t101,t102,t103,t104,t105,t106,t107,t108,t109,t110,t111,t112,t113,t114,t115,t116,t117,t118,t119;
     RadioGroup l1;
     Button submit;
-    Boolean q1=false,q2=false,q3=false,q4=false,q5=false,q6=false,q7=false,q8=false,q9=false,q10=false,q11=false,q12=false,q13=false,q14=false,q15=false,q16=false;
+    boolean[] questions;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         submit=findViewById(R.id.submit);
+        questions=new boolean[16];
         l1=findViewById(R.id.numbers);
         t1=findViewById(R.id.toggle0);
         t1.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
@@ -551,7 +553,31 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-        //t23=findViewById(R.id.toggle22);
+        t23=findViewById(R.id.toggle22);
+        t23.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if(t23.isChecked())
+                {
+                    l1.setVisibility(View.VISIBLE);
+                    l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+                        @Override
+                        public void onCheckedChanged(RadioGroup radioGroup, int i) {
+                            RadioButton rb =findViewById(i);
+                            String number=rb.getText().toString();
+                            t23.setText(number);
+                            t23.setTextOff(number);
+                            t23.setChecked(false);
+                        }
+                    });
+                }
+                else
+                {
+                    l1.setVisibility(View.INVISIBLE);
+                }
+            }
+        });
+
         t24=findViewById(R.id.toggle23);
         t24.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
@@ -938,7 +964,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-        t40=findViewById(R.id.toggle39);
+        /*t40=findViewById(R.id.toggle39);
         t40.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
@@ -961,7 +987,7 @@ public class MainActivity extends AppCompatActivity {
                     l1.setVisibility(View.INVISIBLE);
                 }
             }
-        });
+        });*/
         t41=findViewById(R.id.toggle40);
         t41.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
@@ -2835,19 +2861,69 @@ public class MainActivity extends AppCompatActivity {
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(t1.getTextOff().toString()=="A"&&t2.getTextOff().toString()=="D"&&t3.getTextOff().toString()=="O"&&t4.getTextOff().toString()=="B"&&t5.getTextOff().toString()=="E"&&t6.getTextOff().toString()=="A"&&t7.getTextOff().toString()=="C"&&t8.getTextOff().toString()=="R"&&t9.getTextOff().toString()=="O"&&t10.getTextOff().toString()=="B"&&t11.getTextOff().toString()=="A"&&t12.getTextOff().toString()=="T"&&t13.getTextOff().toString()=="R"&&t14.getTextOff().toString()=="E"&&t15.getTextOff().toString()=="A"&&t16.getTextOff().toString()=="D"&&t17.getTextOff().toString()=="E"&&t18.getTextOff().toString()=="R"&&t19.getTextOff().toString()=="D"&&t20.getTextOff().toString()=="C")
+                if(t1.getTextOff().toString().equals("A")&&t2.getTextOff().toString().equals("D")&&t3.getTextOff().toString().equals("O")&&t4.getTextOff().toString().equals("B")&&t5.getTextOff().toString().equals("E")&&t6.getTextOff().toString().equals("A")&&t7.getTextOff().toString().equals("C")&&t8.getTextOff().toString().equals("R")&&t9.getTextOff().toString().equals("O")&&t10.getTextOff().toString().equals("B")&&t11.getTextOff().toString().equals("A")&&t12.getTextOff().toString().equals("T")&&t13.getTextOff().toString().equals("R")&&t14.getTextOff().toString().equals("E")&&t15.getTextOff().toString().equals("A")&&t16.getTextOff().toString().equals("D")&&t17.getTextOff().toString().equals("E")&&t18.getTextOff().toString().equals("R")&&t19.getTextOff().toString().equals("D")&&t20.getTextOff().toString().equals("C"))
                 {
-                    q1=true;
+                    questions[1]=true;
                 }
-                if(t13.getTextOff().toString()=="R"&&t21.getTextOff().toString()=="O"&&t22.getTextOff().toString()=="B"&&t24.getTextOff().toString()=="E"&&t25.getTextOff().toString()=="R"&&t26.getTextOff().toString()=="T")
+                if(t13.getTextOff().toString().equals("R")&&t21.getTextOff().toString().equals("O")&&t22.getTextOff().toString().equals("B")&&t23.getTextOff().toString().equals("E")&&t24.getTextOff().toString().equals("R")&&t25.getTextOff().toString().equals("T")&&t26.getTextOff().toString().equals("E")&&t27.getTextOff().toString().equals("L")&&t28.getTextOff().toString().equals("L")&&t29.getTextOff().toString().equals("I")&&t30.getTextOff().toString().equals("O")&&t31.getTextOff().toString().equals("T")&&t32.getTextOff().toString().equals("K")&&t33.getTextOff().toString().equals("A")&&t34.getTextOff().toString().equals("H")&&t35.getTextOff().toString().equals("N"))
                 {
-                    q2=true;
+                    questions[2]=true;
                 }
-                if(t36.getTextOff().toString()=="C"&&t39.getTextOff().toString()=="L"&&t56.getTextOff().toString()=="I"&&t68.getTextOff().toString()=="P"&&t70.getTextOff().toString()=="B"&&t80.getTextOff().toString()=="O"&&t92.getTextOff().toString()=="A"&&t97.getTextOff().toString()=="R"&&t98.getTextOff().toString()=="D")
+                if(t36.getTextOff().toString().equals("C")&&t39.getTextOff().toString().equals("L")&&t56.getTextOff().toString().equals("I")&&t68.getTextOff().toString().equals("P")&&t70.getTextOff().toString().equals("B")&&t80.getTextOff().toString().equals("O")&&t92.getTextOff().toString().equals("A")&&t97.getTextOff().toString().equals("R")&&t98.getTextOff().toString().equals("D"))
                 {
-                    q3=true;
+                    questions[3]=true;
                 }
-
+                if(t37.getTextOff().toString().equals("R")&&t51.getTextOff().toString().equals("A")&&t66.getTextOff().toString().equals("M")&&t75.getTextOff().toString().equals("A")&&t77.getTextOff().toString().equals("C"))
+                {
+                    questions[4]=true;
+                }
+                if(t38.getTextOff().toString().equals("D")&&t54.getTextOff().toString().equals("E")&&t67.getTextOff().toString().equals("S")&&t69.getTextOff().toString().equals("K")&&t78.getTextOff().toString().equals("T")&&t84.getTextOff().toString().equals("O")&&t100.getTextOff().toString().equals("P"))
+                {
+                    questions[5]=true;
+                }
+                if(t23.getTextOff().toString().equals("E")&&t41.getTextOff().toString().equals("X")&&t42.getTextOff().toString().equals("T")&&t43.getTextOff().toString().equals("R")&&t44.getTextOff().toString().equals("A")&&t45.getTextOff().toString().equals("N")&&t46.getTextOff().toString().equals("E")&&t47.getTextOff().toString().equals("T"))
+                {
+                    questions[6]=true;
+                }
+                if(t50.getTextOff().toString().equals("H")&&t51.getTextOff().toString().equals("A")&&t52.getTextOff().toString().equals("C")&&t53.getTextOff().toString().equals("K")&&t54.getTextOff().toString().equals("E")&&t55.getTextOff().toString().equals("R"))
+                {
+                    questions[7]=true;
+                }
+                if(t25.getTextOff().toString().equals("T")&&t57.getTextOff().toString().equals("Y")&&t58.getTextOff().toString().equals("P")&&t59.getTextOff().toString().equals("E")&&t60.getTextOff().toString().equals("W")&&t61.getTextOff().toString().equals("R")&&t62.getTextOff().toString().equals("I")&&t63.getTextOff().toString().equals("T")&&t64.getTextOff().toString().equals("E")&&t65.getTextOff().toString().equals("R"))
+                {
+                    questions[8]=true;
+                }
+                if(t60.getTextOff().toString().equals("W")&&t71.getTextOff().toString().equals("Y")&&t81.getTextOff().toString().equals("S")&&t95.getTextOff().toString().equals("I")&&t101.getTextOff().toString().equals("W")&&t102.getTextOff().toString().equals("Y")&&t103.getTextOff().toString().equals("G"))
+                {
+                    questions[9]=true;
+                }
+                if(t63.getTextOff().toString().equals("T")&&t72.getTextOff().toString().equals("W")&&t82.getTextOff().toString().equals("E")&&t96.getTextOff().toString().equals("E")&&t104.getTextOff().toString().equals("T")&&t105.getTextOff().toString().equals("S"))
+                {
+                    questions[10]=true;
+                }
+                if(t73.getTextOff().toString().equals("S")&&t74.getTextOff().toString().equals("P")&&t75.getTextOff().toString().equals("A")&&t76.getTextOff().toString().equals("M"))
+                {
+                    questions[11]=true;
+                }
+                if(t79.getTextOff().toString().equals("R")&&t89.getTextOff().toString().equals("S")&&t99.getTextOff().toString().equals("I"))
+                {
+                    questions[12]=true;
+                }
+                if(t83.getTextOff().toString().equals("N")&&t84.getTextOff().toString().equals("O")&&t85.getTextOff().toString().equals("N")&&t86.getTextOff().toString().equals("C")&&t87.getTextOff().toString().equals("O")&&t88.getTextOff().toString().equals("N")&&t89.getTextOff().toString().equals("S")&&t90.getTextOff().toString().equals("U")&&t91.getTextOff().toString().equals("M")&&t92.getTextOff().toString().equals("A")&&t93.getTextOff().toString().equals("B")&&t28.getTextOff().toString().equals("L")&&t94.getTextOff().toString().equals("E"))
+                {
+                    questions[13]=true;
+                }
+                if(t112.getTextOff().toString().equals("S")&&t113.getTextOff().toString().equals("O")&&t114.getTextOff().toString().equals("U")&&t115.getTextOff().toString().equals("N")&&t116.getTextOff().toString().equals("D")&&t117.getTextOff().toString().equals("C")&&t33.getTextOff().toString().equals("A")&&t118.getTextOff().toString().equals("R")&&t119.getTextOff().toString().equals("D"))
+                {
+                    questions[14]=true;
+                }
+                if(t107.getTextOff().toString().equals("S")&&t108.getTextOff().toString().equals("U")&&t109.getTextOff().toString().equals("R")&&t110.getTextOff().toString().equals("F")&&t111.getTextOff().toString().equals("I")&&t35.getTextOff().toString().equals("N")&&t105.getTextOff().toString().equals("G"))
+                {
+                    questions[15]=true;
+                }
+                Intent i=new Intent(MainActivity.this,result.class);
+                i.putExtra("result",questions);
+                startActivity(i);
             }
         });
         }

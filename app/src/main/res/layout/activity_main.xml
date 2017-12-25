@@ -355,6 +355,174 @@
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:id="@+id/tb0">
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textColor="#fff"
+                    android:textOff="2"
+                    android:textOn="2"/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:id="@+id/tb1">
                 <ToggleButton
                     android:layout_height="40dp"
@@ -374,6 +542,13 @@
                     android:background="#000"
                     android:textOff=""
                     android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textColor="#fff"
+                    android:textOff="1"
+                    android:textOn="1"/>
                 <ToggleButton
                     android:layout_height="40dp"
                     android:layout_width="40dp"
@@ -507,6 +682,12 @@
                     android:background="#000"
                     android:textOff=""
                     android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
             </TableRow>
             <TableRow
                 android:layout_width="match_parent"
@@ -600,6 +781,13 @@
                     android:layout_height="40dp"
                     android:layout_width="40dp"
                     android:background="#000"
+                    android:textColor="#fff"
+                    android:textOff="3"
+                    android:textOn="3"/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
                     android:textOff=""
                     android:textOn=""/>
                 <ToggleButton
@@ -662,11 +850,23 @@
                     android:background="#000"
                     android:textOff=""
                     android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
             </TableRow>
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/tb3">
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
             <ToggleButton
                 android:layout_height="40dp"
                 android:layout_width="40dp"
@@ -683,8 +883,9 @@
                 android:layout_height="40dp"
                 android:layout_width="40dp"
                 android:background="#000"
-                android:textOff=""
-                android:textOn=""/>
+                android:textColor="#fff"
+                android:textOff="4"
+                android:textOn="4"/>
             <ToggleButton
                 android:layout_height="40dp"
                 android:layout_width="40dp"
@@ -701,8 +902,9 @@
                 android:layout_height="40dp"
                 android:layout_width="40dp"
                 android:background="#000"
-                android:textOff=""
-                android:textOn=""/>
+                android:textColor="#fff"
+                android:textOff="5"
+                android:textOn="5"/>
             <ToggleButton
                 android:layout_height="40dp"
                 android:layout_width="40dp"
@@ -817,11 +1019,23 @@
                 android:background="#000"
                 android:textOff=""
                 android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
             </TableRow>
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/tb4">
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
                 <ToggleButton
                     android:layout_height="40dp"
                     android:layout_width="40dp"
@@ -911,14 +1125,16 @@
                     android:layout_height="40dp"
                     android:layout_width="40dp"
                     android:background="#000"
-                    android:textOff=""
-                    android:textOn=""/>
+                    android:textColor="#fff"
+                    android:textOff="6"
+                    android:textOn="6"/>
+
                 <ToggleButton
-                    android:layout_height="40dp"
+                    android:id="@+id/toggle22"
                     android:layout_width="40dp"
-                    android:id="@+id/toggle39"
+                    android:layout_height="40dp"
                     android:textOff=""
-                    android:textOn=""/>
+                    android:textOn="" />
                 <ToggleButton
                     android:layout_height="40dp"
                     android:layout_width="40dp"
@@ -973,6 +1189,12 @@
                     android:background="#000"
                     android:textOff=""
                     android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
             </TableRow>
             <TableRow
                 android:layout_width="match_parent"
@@ -984,6 +1206,13 @@
                     android:background="#000"
                     android:textOff=""
                     android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textColor="#fff"
+                    android:textOff="7"
+                    android:textOn="7"/>
                 <ToggleButton
                     android:layout_height="40dp"
                     android:layout_width="40dp"
@@ -1096,8 +1325,9 @@
                     android:layout_height="40dp"
                     android:layout_width="40dp"
                     android:background="#000"
-                    android:textOff=""
-                    android:textOn=""/>
+                    android:textColor="#fff"
+                    android:textOff="9"
+                    android:textOn="9"/>
                 <ToggleButton
                     android:layout_height="40dp"
                     android:layout_width="40dp"
@@ -1110,6 +1340,13 @@
                     android:background="#000"
                     android:textOff=""
                     android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textColor="#fff"
+                    android:textOff="10"
+                    android:textOn="10"/>
                 <ToggleButton
                     android:layout_height="40dp"
                     android:layout_width="40dp"
@@ -1133,6 +1370,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/tb6">
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
                 <ToggleButton
                     android:layout_height="40dp"
                     android:layout_width="40dp"
@@ -1222,8 +1465,9 @@
                     android:layout_height="40dp"
                     android:layout_width="40dp"
                     android:background="#000"
-                    android:textOff=""
-                    android:textOn=""/>
+                    android:textColor="#fff"
+                    android:textOff="8"
+                    android:textOn="8"/>
                 <ToggleButton
                     android:layout_height="40dp"
                     android:layout_width="40dp"
@@ -1284,11 +1528,24 @@
                     android:id="@+id/toggle64"
                     android:textOff=""
                     android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
             </TableRow>
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/tb7">
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textColor="#fff"
+                    android:textOff="11"
+                    android:textOn="11"/>
                 <ToggleButton
                     android:layout_height="40dp"
                     android:layout_width="40dp"
@@ -1354,8 +1611,9 @@
                     android:layout_height="40dp"
                     android:layout_width="40dp"
                     android:background="#000"
-                    android:textOff=""
-                    android:textOn=""/>
+                    android:textColor="#fff"
+                    android:textOff="12"
+                    android:textOn="12"/>
                 <ToggleButton
                     android:layout_height="40dp"
                     android:layout_width="40dp"
@@ -1440,11 +1698,23 @@
                     android:background="#000"
                     android:textOff=""
                     android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
             </TableRow>
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/tb8">
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
                 <ToggleButton
                     android:layout_height="40dp"
                     android:layout_width="40dp"
@@ -1595,6 +1865,12 @@
                     android:background="#000"
                     android:textOff=""
                     android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
             </TableRow>
             <TableRow
                 android:layout_width="match_parent"
@@ -1624,6 +1900,13 @@
                     android:background="#000"
                     android:textOff=""
                     android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textColor="#fff"
+                    android:textOff="13"
+                    android:textOn="13"/>
                 <ToggleButton
                     android:layout_height="40dp"
                     android:layout_width="40dp"
@@ -1750,11 +2033,23 @@
                     android:background="#000"
                     android:textOff=""
                     android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
             </TableRow>
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/tb10">
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
                 <ToggleButton
                     android:layout_height="40dp"
                     android:layout_width="40dp"
@@ -1905,11 +2200,23 @@
                     android:background="#000"
                     android:textOff=""
                     android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
             </TableRow>
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/tb11">
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
                 <ToggleButton
                     android:layout_height="40dp"
                     android:layout_width="40dp"
@@ -2042,10 +2349,17 @@
                     android:background="#000"
                     android:textOff=""
                     android:textOn=""/>
+
+                <ToggleButton
+                    android:id="@+id/toggle104"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:textOff=""
+                    android:textOn="" />
                 <ToggleButton
                     android:layout_height="40dp"
                     android:layout_width="40dp"
-                    android:id="@+id/toggle104"
+                    android:background="#000"
                     android:textOff=""
                     android:textOn=""/>
                 <ToggleButton
@@ -2065,6 +2379,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/tb12">
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
                 <ToggleButton
                     android:layout_height="40dp"
                     android:layout_width="40dp"
@@ -2216,11 +2536,23 @@
                     android:background="#000"
                     android:textOff=""
                     android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
             </TableRow>
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/tb13">
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
                 <ToggleButton
                     android:layout_height="40dp"
                     android:layout_width="40dp"
@@ -2371,6 +2703,12 @@
                     android:background="#000"
                     android:textOff=""
                     android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
             </TableRow>
             <TableRow
                 android:layout_width="match_parent"
@@ -2430,6 +2768,13 @@
                     android:background="#000"
                     android:textOff=""
                     android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textColor="#fff"
+                    android:textOff="14"
+                    android:textOn="14"/>
                 <ToggleButton
                     android:layout_height="40dp"
                     android:layout_width="40dp"
@@ -2527,11 +2872,23 @@
                     android:background="#000"
                     android:textOff=""
                     android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
             </TableRow>
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/tb15">
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
                 <ToggleButton
                     android:layout_height="40dp"
                     android:layout_width="40dp"
@@ -2683,11 +3040,23 @@
                     android:background="#000"
                     android:textOff=""
                     android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
             </TableRow>
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/tb16">
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
         <ToggleButton
             android:layout_height="40dp"
             android:layout_width="40dp"
@@ -2746,8 +3115,9 @@
             android:layout_height="40dp"
             android:layout_width="40dp"
             android:background="#000"
-            android:textOff=""
-            android:textOn=""/>
+            android:textColor="#fff"
+            android:textOff="15"
+            android:textOn="15"/>
         <ToggleButton
             android:layout_height="40dp"
             android:layout_width="40dp"
@@ -2838,6 +3208,179 @@
             android:background="#000"
             android:textOff=""
             android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/tb17">
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
+                <ToggleButton
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:background="#000"
+                    android:textOff=""
+                    android:textOn=""/>
             </TableRow>
         </TableLayout>
     </HorizontalScrollView>
