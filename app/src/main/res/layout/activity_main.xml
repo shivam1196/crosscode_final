@@ -15,10 +15,26 @@
         android:text="Cross-Word"
         android:textSize="40sp"
         android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Questions:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/ques"
+        android:layout_below="@+id/crossword"
+        android:textColor="#000"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/ques">
+    </android.support.v4.view.ViewPager>
     <HorizontalScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/crossword"
+        android:layout_below="@+id/viewPager"
         android:layout_marginBottom="10dp"
         android:id="@+id/hsv">
         <RadioGroup
@@ -350,7 +366,6 @@
         android:textStyle="bold"
         android:layout_below="@+id/hsv"
         />
-
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -362,23 +377,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-         <TextView
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:text="Questions:"
-             android:textSize="30sp"
-             android:textStyle="bold"
-             android:textColor="#000"/>
-
-            <android.support.v4.view.ViewPager
-                android:id="@+id/viewPager"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"></android.support.v4.view.ViewPager>
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="30sp"
+                android:textSize="20sp"
                 android:text="Solve the Puzzle below"
                 android:textStyle="bold"
                 android:textColor="#000"/>

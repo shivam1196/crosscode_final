@@ -16,7 +16,6 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ToggleButton;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -28,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
     Button submit;
     TextView mTextView;
     boolean[] questions;
+    String e,p,time;
     ViewPager mViewPager;
     List<String> ques = new ArrayList<>();
     private static final String FORMAT = "%02d:%02d:%02d";
@@ -64,6 +64,10 @@ public class MainActivity extends AppCompatActivity {
                 return ques.size();
             }
         });
+        Intent in=getIntent();
+        Bundle b= in.getExtras();
+        e=b.getString("name");
+        p=b.getString("sapid");
         submit=findViewById(R.id.submit);
         questions=new boolean[16];
         mTextView=findViewById(R.id.txtTime);
@@ -2985,7 +2989,7 @@ public class MainActivity extends AppCompatActivity {
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, mTextView.getText().toString(), Toast.LENGTH_SHORT).show();
+                //Toast.makeText(MainActivity.this, mTextView.getText().toString(), Toast.LENGTH_SHORT).show();
                 if(t1.getTextOff().toString().equals("A")&&t2.getTextOff().toString().equals("D")&&t3.getTextOff().toString().equals("O")&&t4.getTextOff().toString().equals("B")&&t5.getTextOff().toString().equals("E")&&t6.getTextOff().toString().equals("A")&&t7.getTextOff().toString().equals("C")&&t8.getTextOff().toString().equals("R")&&t9.getTextOff().toString().equals("O")&&t10.getTextOff().toString().equals("B")&&t11.getTextOff().toString().equals("A")&&t12.getTextOff().toString().equals("T")&&t13.getTextOff().toString().equals("R")&&t14.getTextOff().toString().equals("E")&&t15.getTextOff().toString().equals("A")&&t16.getTextOff().toString().equals("D")&&t17.getTextOff().toString().equals("E")&&t18.getTextOff().toString().equals("R")&&t19.getTextOff().toString().equals("D")&&t20.getTextOff().toString().equals("C"))
                 {
                     questions[1]=true;
@@ -3046,12 +3050,17 @@ public class MainActivity extends AppCompatActivity {
                 {
                     questions[15]=true;
                 }
+                time=mTextView.getText().toString();
                 Intent i=new Intent(MainActivity.this,result.class);
-                i.putExtra("result",questions);
+                Bundle b=new Bundle();
+                b.putString("name",e);
+                b.putString("sapid",p);
+                b.putString("time",time);
+                b.putBooleanArray("result",questions);
+                i.putExtras(b);
                 startActivity(i);
             }
         });
         }
 
     }
-
