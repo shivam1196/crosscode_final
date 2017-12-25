@@ -13,7 +13,8 @@
         android:id="@+id/crossword"
         android:textColor="#2f06fa"
         android:text="Cross-Word"
-        android:textSize="50sp"/>
+        android:textSize="40sp"
+        android:textStyle="bold"/>
     <HorizontalScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -341,11 +342,35 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/sv"
+        android:layout_marginBottom="50dp"
         android:layout_below="@+id/hsv">
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Questions:"
+             android:textSize="30sp"
+             android:textStyle="bold"
+             android:textColor="#000"/>
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/snip1"/>
+          <ImageView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/snip2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="Solve the Puzzle below"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
         <HorizontalScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
@@ -3384,13 +3409,15 @@
             </TableRow>
         </TableLayout>
     </HorizontalScrollView>
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="right"
-            android:text="Submit"
-            android:id="@+id/submit"
-            />
         </LinearLayout>
     </ScrollView>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="130dp"
+        android:textSize="15sp" />
 </RelativeLayout>
