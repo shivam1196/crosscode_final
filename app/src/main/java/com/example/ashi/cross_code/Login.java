@@ -29,8 +29,11 @@ public class Login extends AppCompatActivity {
                 }
                 else
                 {
-
                     Intent i = new Intent(Login.this, Rules.class);
+                    Bundle b=new Bundle();
+                    b.putString("name",e);
+                    b.putString("sapid",p);
+                    i.putExtras(b);
                     startActivity(i);
                 }
             }
