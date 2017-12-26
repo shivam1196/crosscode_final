@@ -1,11 +1,13 @@
 package com.example.ashi.cross_code;
 
 import android.app.FragmentManager;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.CountDownTimer;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -147,9 +149,15 @@ public class MainActivity extends AppCompatActivity {
                 {
                     questions[15]=true;
                 }
-                Intent i=new Intent(MainActivity.this,result.class);
-                i.putExtra("result",questions);
-                startActivity(i);
+                time=mTextView.getText().toString();
+                Intent in=new Intent(MainActivity.this,result.class);
+                Bundle buil=new Bundle();
+                buil.putString("name",e);
+                buil.putString("sapid",p);
+                buil.putString("time",time);
+                buil.putBooleanArray("result",questions);
+                in.putExtras(buil);
+                startActivity(in);
             }
         }.start();
         t1=findViewById(R.id.toggle0);
@@ -2989,78 +2997,117 @@ public class MainActivity extends AppCompatActivity {
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Toast.makeText(MainActivity.this, mTextView.getText().toString(), Toast.LENGTH_SHORT).show();
-                if(t1.getTextOff().toString().equals("A")&&t2.getTextOff().toString().equals("D")&&t3.getTextOff().toString().equals("O")&&t4.getTextOff().toString().equals("B")&&t5.getTextOff().toString().equals("E")&&t6.getTextOff().toString().equals("A")&&t7.getTextOff().toString().equals("C")&&t8.getTextOff().toString().equals("R")&&t9.getTextOff().toString().equals("O")&&t10.getTextOff().toString().equals("B")&&t11.getTextOff().toString().equals("A")&&t12.getTextOff().toString().equals("T")&&t13.getTextOff().toString().equals("R")&&t14.getTextOff().toString().equals("E")&&t15.getTextOff().toString().equals("A")&&t16.getTextOff().toString().equals("D")&&t17.getTextOff().toString().equals("E")&&t18.getTextOff().toString().equals("R")&&t19.getTextOff().toString().equals("D")&&t20.getTextOff().toString().equals("C"))
-                {
-                    questions[1]=true;
+                    AlertDialog.Builder b=new AlertDialog.Builder(MainActivity.this);
+                    b.setTitle("Submit Quiz!");
+                    b.setMessage("Are you sure you want to submit before Timeup ?");
+                    b.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialogInterface, int i) {
+                            if(t1.getTextOff().toString().equals("A")&&t2.getTextOff().toString().equals("D")&&t3.getTextOff().toString().equals("O")&&t4.getTextOff().toString().equals("B")&&t5.getTextOff().toString().equals("E")&&t6.getTextOff().toString().equals("A")&&t7.getTextOff().toString().equals("C")&&t8.getTextOff().toString().equals("R")&&t9.getTextOff().toString().equals("O")&&t10.getTextOff().toString().equals("B")&&t11.getTextOff().toString().equals("A")&&t12.getTextOff().toString().equals("T")&&t13.getTextOff().toString().equals("R")&&t14.getTextOff().toString().equals("E")&&t15.getTextOff().toString().equals("A")&&t16.getTextOff().toString().equals("D")&&t17.getTextOff().toString().equals("E")&&t18.getTextOff().toString().equals("R")&&t19.getTextOff().toString().equals("D")&&t20.getTextOff().toString().equals("C"))
+                            {
+                                questions[1]=true;
+                            }
+                            if(t13.getTextOff().toString().equals("R")&&t21.getTextOff().toString().equals("O")&&t22.getTextOff().toString().equals("B")&&t23.getTextOff().toString().equals("E")&&t24.getTextOff().toString().equals("R")&&t25.getTextOff().toString().equals("T")&&t26.getTextOff().toString().equals("E")&&t27.getTextOff().toString().equals("L")&&t28.getTextOff().toString().equals("L")&&t29.getTextOff().toString().equals("I")&&t30.getTextOff().toString().equals("O")&&t31.getTextOff().toString().equals("T")&&t32.getTextOff().toString().equals("K")&&t33.getTextOff().toString().equals("A")&&t34.getTextOff().toString().equals("H")&&t35.getTextOff().toString().equals("N"))
+                            {
+                                questions[2]=true;
+                            }
+                            if(t36.getTextOff().toString().equals("C")&&t39.getTextOff().toString().equals("L")&&t56.getTextOff().toString().equals("I")&&t68.getTextOff().toString().equals("P")&&t70.getTextOff().toString().equals("B")&&t80.getTextOff().toString().equals("O")&&t92.getTextOff().toString().equals("A")&&t97.getTextOff().toString().equals("R")&&t98.getTextOff().toString().equals("D"))
+                            {
+                                questions[3]=true;
+                            }
+                            if(t37.getTextOff().toString().equals("R")&&t51.getTextOff().toString().equals("A")&&t66.getTextOff().toString().equals("M")&&t75.getTextOff().toString().equals("A")&&t77.getTextOff().toString().equals("C"))
+                            {
+                                questions[4]=true;
+                            }
+                            if(t38.getTextOff().toString().equals("D")&&t54.getTextOff().toString().equals("E")&&t67.getTextOff().toString().equals("S")&&t69.getTextOff().toString().equals("K")&&t78.getTextOff().toString().equals("T")&&t84.getTextOff().toString().equals("O")&&t100.getTextOff().toString().equals("P"))
+                            {
+                                questions[5]=true;
+                            }
+                            if(t23.getTextOff().toString().equals("E")&&t41.getTextOff().toString().equals("X")&&t42.getTextOff().toString().equals("T")&&t43.getTextOff().toString().equals("R")&&t44.getTextOff().toString().equals("A")&&t45.getTextOff().toString().equals("N")&&t46.getTextOff().toString().equals("E")&&t47.getTextOff().toString().equals("T"))
+                            {
+                                questions[6]=true;
+                            }
+                            if(t50.getTextOff().toString().equals("H")&&t51.getTextOff().toString().equals("A")&&t52.getTextOff().toString().equals("C")&&t53.getTextOff().toString().equals("K")&&t54.getTextOff().toString().equals("E")&&t55.getTextOff().toString().equals("R"))
+                            {
+                                questions[7]=true;
+                            }
+                            if(t25.getTextOff().toString().equals("T")&&t57.getTextOff().toString().equals("Y")&&t58.getTextOff().toString().equals("P")&&t59.getTextOff().toString().equals("E")&&t60.getTextOff().toString().equals("W")&&t61.getTextOff().toString().equals("R")&&t62.getTextOff().toString().equals("I")&&t63.getTextOff().toString().equals("T")&&t64.getTextOff().toString().equals("E")&&t65.getTextOff().toString().equals("R"))
+                            {
+                                questions[8]=true;
+                            }
+                            if(t60.getTextOff().toString().equals("W")&&t71.getTextOff().toString().equals("Y")&&t81.getTextOff().toString().equals("S")&&t95.getTextOff().toString().equals("I")&&t101.getTextOff().toString().equals("W")&&t102.getTextOff().toString().equals("Y")&&t103.getTextOff().toString().equals("G"))
+                            {
+                                questions[9]=true;
+                            }
+                            if(t63.getTextOff().toString().equals("T")&&t72.getTextOff().toString().equals("W")&&t82.getTextOff().toString().equals("E")&&t96.getTextOff().toString().equals("E")&&t104.getTextOff().toString().equals("T")&&t105.getTextOff().toString().equals("S"))
+                            {
+                                questions[10]=true;
+                            }
+                            if(t73.getTextOff().toString().equals("S")&&t74.getTextOff().toString().equals("P")&&t75.getTextOff().toString().equals("A")&&t76.getTextOff().toString().equals("M"))
+                            {
+                                questions[11]=true;
+                            }
+                            if(t79.getTextOff().toString().equals("R")&&t89.getTextOff().toString().equals("S")&&t99.getTextOff().toString().equals("I"))
+                            {
+                                questions[12]=true;
+                            }
+                            if(t83.getTextOff().toString().equals("N")&&t84.getTextOff().toString().equals("O")&&t85.getTextOff().toString().equals("N")&&t86.getTextOff().toString().equals("C")&&t87.getTextOff().toString().equals("O")&&t88.getTextOff().toString().equals("N")&&t89.getTextOff().toString().equals("S")&&t90.getTextOff().toString().equals("U")&&t91.getTextOff().toString().equals("M")&&t92.getTextOff().toString().equals("A")&&t93.getTextOff().toString().equals("B")&&t28.getTextOff().toString().equals("L")&&t94.getTextOff().toString().equals("E"))
+                            {
+                                questions[13]=true;
+                            }
+                            if(t112.getTextOff().toString().equals("S")&&t113.getTextOff().toString().equals("O")&&t114.getTextOff().toString().equals("U")&&t115.getTextOff().toString().equals("N")&&t116.getTextOff().toString().equals("D")&&t117.getTextOff().toString().equals("C")&&t33.getTextOff().toString().equals("A")&&t118.getTextOff().toString().equals("R")&&t119.getTextOff().toString().equals("D"))
+                            {
+                                questions[14]=true;
+                            }
+                            if(t107.getTextOff().toString().equals("S")&&t108.getTextOff().toString().equals("U")&&t109.getTextOff().toString().equals("R")&&t110.getTextOff().toString().equals("F")&&t111.getTextOff().toString().equals("I")&&t35.getTextOff().toString().equals("N")&&t105.getTextOff().toString().equals("G"))
+                            {
+                                questions[15]=true;
+                            }
+                            time=mTextView.getText().toString();
+                            Intent in=new Intent(MainActivity.this,result.class);
+                            Bundle buil=new Bundle();
+                            buil.putString("name",e);
+                            buil.putString("sapid",p);
+                            buil.putString("time",time);
+                            buil.putBooleanArray("result",questions);
+                            in.putExtras(buil);
+                            startActivity(in);
+                            System.exit(1);
+
+                        }
+                    });
+                    b.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialogInterface, int i) {
+
+                        }
+                    });
+                    b.show();
+
                 }
-                if(t13.getTextOff().toString().equals("R")&&t21.getTextOff().toString().equals("O")&&t22.getTextOff().toString().equals("B")&&t23.getTextOff().toString().equals("E")&&t24.getTextOff().toString().equals("R")&&t25.getTextOff().toString().equals("T")&&t26.getTextOff().toString().equals("E")&&t27.getTextOff().toString().equals("L")&&t28.getTextOff().toString().equals("L")&&t29.getTextOff().toString().equals("I")&&t30.getTextOff().toString().equals("O")&&t31.getTextOff().toString().equals("T")&&t32.getTextOff().toString().equals("K")&&t33.getTextOff().toString().equals("A")&&t34.getTextOff().toString().equals("H")&&t35.getTextOff().toString().equals("N"))
-                {
-                    questions[2]=true;
-                }
-                if(t36.getTextOff().toString().equals("C")&&t39.getTextOff().toString().equals("L")&&t56.getTextOff().toString().equals("I")&&t68.getTextOff().toString().equals("P")&&t70.getTextOff().toString().equals("B")&&t80.getTextOff().toString().equals("O")&&t92.getTextOff().toString().equals("A")&&t97.getTextOff().toString().equals("R")&&t98.getTextOff().toString().equals("D"))
-                {
-                    questions[3]=true;
-                }
-                if(t37.getTextOff().toString().equals("R")&&t51.getTextOff().toString().equals("A")&&t66.getTextOff().toString().equals("M")&&t75.getTextOff().toString().equals("A")&&t77.getTextOff().toString().equals("C"))
-                {
-                    questions[4]=true;
-                }
-                if(t38.getTextOff().toString().equals("D")&&t54.getTextOff().toString().equals("E")&&t67.getTextOff().toString().equals("S")&&t69.getTextOff().toString().equals("K")&&t78.getTextOff().toString().equals("T")&&t84.getTextOff().toString().equals("O")&&t100.getTextOff().toString().equals("P"))
-                {
-                    questions[5]=true;
-                }
-                if(t23.getTextOff().toString().equals("E")&&t41.getTextOff().toString().equals("X")&&t42.getTextOff().toString().equals("T")&&t43.getTextOff().toString().equals("R")&&t44.getTextOff().toString().equals("A")&&t45.getTextOff().toString().equals("N")&&t46.getTextOff().toString().equals("E")&&t47.getTextOff().toString().equals("T"))
-                {
-                    questions[6]=true;
-                }
-                if(t50.getTextOff().toString().equals("H")&&t51.getTextOff().toString().equals("A")&&t52.getTextOff().toString().equals("C")&&t53.getTextOff().toString().equals("K")&&t54.getTextOff().toString().equals("E")&&t55.getTextOff().toString().equals("R"))
-                {
-                    questions[7]=true;
-                }
-                if(t25.getTextOff().toString().equals("T")&&t57.getTextOff().toString().equals("Y")&&t58.getTextOff().toString().equals("P")&&t59.getTextOff().toString().equals("E")&&t60.getTextOff().toString().equals("W")&&t61.getTextOff().toString().equals("R")&&t62.getTextOff().toString().equals("I")&&t63.getTextOff().toString().equals("T")&&t64.getTextOff().toString().equals("E")&&t65.getTextOff().toString().equals("R"))
-                {
-                    questions[8]=true;
-                }
-                if(t60.getTextOff().toString().equals("W")&&t71.getTextOff().toString().equals("Y")&&t81.getTextOff().toString().equals("S")&&t95.getTextOff().toString().equals("I")&&t101.getTextOff().toString().equals("W")&&t102.getTextOff().toString().equals("Y")&&t103.getTextOff().toString().equals("G"))
-                {
-                    questions[9]=true;
-                }
-                if(t63.getTextOff().toString().equals("T")&&t72.getTextOff().toString().equals("W")&&t82.getTextOff().toString().equals("E")&&t96.getTextOff().toString().equals("E")&&t104.getTextOff().toString().equals("T")&&t105.getTextOff().toString().equals("S"))
-                {
-                    questions[10]=true;
-                }
-                if(t73.getTextOff().toString().equals("S")&&t74.getTextOff().toString().equals("P")&&t75.getTextOff().toString().equals("A")&&t76.getTextOff().toString().equals("M"))
-                {
-                    questions[11]=true;
-                }
-                if(t79.getTextOff().toString().equals("R")&&t89.getTextOff().toString().equals("S")&&t99.getTextOff().toString().equals("I"))
-                {
-                    questions[12]=true;
-                }
-                if(t83.getTextOff().toString().equals("N")&&t84.getTextOff().toString().equals("O")&&t85.getTextOff().toString().equals("N")&&t86.getTextOff().toString().equals("C")&&t87.getTextOff().toString().equals("O")&&t88.getTextOff().toString().equals("N")&&t89.getTextOff().toString().equals("S")&&t90.getTextOff().toString().equals("U")&&t91.getTextOff().toString().equals("M")&&t92.getTextOff().toString().equals("A")&&t93.getTextOff().toString().equals("B")&&t28.getTextOff().toString().equals("L")&&t94.getTextOff().toString().equals("E"))
-                {
-                    questions[13]=true;
-                }
-                if(t112.getTextOff().toString().equals("S")&&t113.getTextOff().toString().equals("O")&&t114.getTextOff().toString().equals("U")&&t115.getTextOff().toString().equals("N")&&t116.getTextOff().toString().equals("D")&&t117.getTextOff().toString().equals("C")&&t33.getTextOff().toString().equals("A")&&t118.getTextOff().toString().equals("R")&&t119.getTextOff().toString().equals("D"))
-                {
-                    questions[14]=true;
-                }
-                if(t107.getTextOff().toString().equals("S")&&t108.getTextOff().toString().equals("U")&&t109.getTextOff().toString().equals("R")&&t110.getTextOff().toString().equals("F")&&t111.getTextOff().toString().equals("I")&&t35.getTextOff().toString().equals("N")&&t105.getTextOff().toString().equals("G"))
-                {
-                    questions[15]=true;
-                }
-                time=mTextView.getText().toString();
-                Intent i=new Intent(MainActivity.this,result.class);
-                Bundle b=new Bundle();
-                b.putString("name",e);
-                b.putString("sapid",p);
-                b.putString("time",time);
-                b.putBooleanArray("result",questions);
-                i.putExtras(b);
-                startActivity(i);
-            }
         });
         }
+    public void onBackPressed() {
+        AlertDialog.Builder b=new AlertDialog.Builder(MainActivity.this);
+        b.setTitle("End Quiz!");
+        b.setMessage("Do you Really want to close the Quiz?");
+        b.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                Intent a = new Intent(Intent.ACTION_MAIN);
+                a.addCategory(Intent.CATEGORY_HOME);
+                a.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(a);
+            }
+        });
+        b.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+
+            }
+        });
+        b.show();
+
+    }
 
     }

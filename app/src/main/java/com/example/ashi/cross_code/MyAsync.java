@@ -1,6 +1,8 @@
 package com.example.ashi.cross_code;
 
 import android.content.Context;
+import android.content.res.ColorStateList;
+import android.graphics.Color;
 import android.os.AsyncTask;
 import android.util.Log;
 import android.widget.TextView;
@@ -37,7 +39,8 @@ class MyAsync extends AsyncTask <String,TextView,Void>{
         }catch (Exception ex)
         {
             Log.i("Exceptiion", ex.toString());
-            mText.setText("Submmission unsuccesfull");
+            mText.setText("Unsuccesfull Submission");
+            mText.setTextColor(0xFFEA0F0F);
         }
         return null;
     }

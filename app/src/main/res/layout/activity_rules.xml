@@ -13,17 +13,58 @@
         android:textSize="30sp"
         android:textColor="#000"
         android:textStyle="bold"
-        android:text="Rules of the Event"/>
+        android:text="Rules of the Cross-Code"/>
     <TextView
         android:id="@+id/para"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:text="1. Please check your internet connection before submission."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:text=" 2.Only one submission will be recorded from one SapId."/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:text="3.All the Alphabets to fill the Cross-word will be visible on the top."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:text="4.You won't be allowed to go back once you Click on Submit."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:text="5.On Completion of time the Answers will be submitted Automatically."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:text="6.Time will be noted in case of tie."/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Next"
-        android:background="#fff"
-        android:textColor="#000"
+        android:background="#000"
+        android:layout_marginTop="30dp"
+        android:textColor="#fff"
         android:textStyle="bold"
         android:id="@+id/next"
         android:layout_gravity="right"

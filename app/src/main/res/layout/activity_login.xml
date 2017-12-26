@@ -7,10 +7,19 @@
     android:orientation="vertical"
     tools:context="com.example.ashi.cross_code.Login">
     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CROSS-CODE"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#0c1bef"/>
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="LogIn"
-        android:textSize="30sp"
+        android:textSize="25sp"
         android:textStyle="bold"
         android:layout_marginTop="40dp"
         android:textColor="#0817ef"
@@ -40,6 +49,4 @@
         android:id="@+id/login"
         android:text="Login"
         android:layout_marginLeft="125dp"/>
-
-
 </LinearLayout>
