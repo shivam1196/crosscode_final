@@ -166,6 +166,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t1.isChecked())
                 {
+                    t119.setChecked(false);t41.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -190,6 +199,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t2.isChecked())
                 {
+                    t1.setChecked(false);t119.setChecked(false);t41.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -214,6 +232,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t3.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t119.setChecked(false);t41.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -238,6 +265,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t4.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t119.setChecked(false);t41.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -262,6 +298,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t5.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t119.setChecked(false);t41.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -286,6 +331,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t6.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t119.setChecked(false);t41.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -310,6 +364,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t7.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t119.setChecked(false);t41.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -334,6 +397,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t8.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t119.setChecked(false);t41.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -358,6 +430,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t9.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t119.setChecked(false);t41.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -382,6 +463,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t10.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t119.setChecked(false);t41.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -406,6 +496,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t11.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t119.setChecked(false);t41.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -430,6 +529,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t12.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t119.setChecked(false);t41.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -454,6 +562,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t13.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t119.setChecked(false);t41.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -478,6 +595,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t14.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t119.setChecked(false);t41.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -503,6 +629,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t15.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t119.setChecked(false);t41.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -527,6 +662,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t16.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t119.setChecked(false);t41.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -551,6 +695,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t17.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t119.setChecked(false);t41.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -575,6 +728,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t18.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t119.setChecked(false);t41.setChecked(false);t17.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -599,6 +761,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t19.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t119.setChecked(false);t41.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -623,6 +794,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t20.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t119.setChecked(false);t41.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -647,6 +827,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t21.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t119.setChecked(false);t41.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -671,6 +860,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t22.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t119.setChecked(false);t41.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -695,6 +893,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t23.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t119.setChecked(false);t41.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -720,6 +927,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t24.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t119.setChecked(false);t41.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -744,6 +960,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t25.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t119.setChecked(false);t41.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -768,6 +993,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t26.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t119.setChecked(false);t41.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -792,6 +1026,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t27.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t119.setChecked(false);t41.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -816,6 +1059,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t28.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t119.setChecked(false);t41.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -840,6 +1092,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t29.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t119.setChecked(false);t41.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -864,6 +1125,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t30.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t119.setChecked(false);t41.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -888,6 +1158,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t31.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t119.setChecked(false);t41.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -912,6 +1191,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t32.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t119.setChecked(false);t41.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -936,6 +1224,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t33.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t119.setChecked(false);t41.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -960,6 +1257,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t34.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t119.setChecked(false);t41.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -984,6 +1290,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t35.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t119.setChecked(false);t41.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -1008,6 +1323,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t36.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t119.setChecked(false);t41.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -1032,6 +1356,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t37.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t119.setChecked(false);t41.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -1056,6 +1389,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t38.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t119.setChecked(false);t41.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -1081,6 +1423,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t39.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t119.setChecked(false);t41.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -1130,6 +1481,16 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t41.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
+                    t119.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -1155,6 +1516,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t42.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t119.setChecked(false);t41.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -1180,6 +1550,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t43.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t119.setChecked(false);t41.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -1204,6 +1583,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t44.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t119.setChecked(false);t41.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -1229,6 +1617,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t45.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t119.setChecked(false);t41.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -1254,6 +1651,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t46.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t119.setChecked(false);t41.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -1278,6 +1684,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t47.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t119.setChecked(false);t41.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -1305,6 +1720,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t50.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t119.setChecked(false);t41.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -1329,6 +1753,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t51.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t119.setChecked(false);t41.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -1354,6 +1787,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t52.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t119.setChecked(false);t41.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -1378,6 +1820,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t53.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t119.setChecked(false);t41.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -1402,6 +1853,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t54.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t119.setChecked(false);t41.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -1426,6 +1886,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t55.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t119.setChecked(false);t41.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -1450,6 +1919,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t56.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t119.setChecked(false);t41.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -1475,6 +1953,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t57.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t119.setChecked(false);t41.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -1499,6 +1986,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t58.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t119.setChecked(false);t41.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -1523,6 +2019,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t59.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t119.setChecked(false);t41.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -1547,6 +2052,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t60.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t119.setChecked(false);t41.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -1571,6 +2085,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t61.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t119.setChecked(false);t41.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -1595,6 +2118,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t62.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t119.setChecked(false);t41.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -1619,6 +2151,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t63.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t119.setChecked(false);t41.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -1643,6 +2184,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t64.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t119.setChecked(false);t41.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -1667,6 +2217,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t65.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t119.setChecked(false);t41.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -1691,6 +2250,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t66.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t119.setChecked(false);t41.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -1715,6 +2283,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t67.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t119.setChecked(false);t41.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -1740,6 +2317,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t68.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t119.setChecked(false);t41.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -1764,6 +2350,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t69.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t119.setChecked(false);t41.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -1789,6 +2384,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t70.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t119.setChecked(false);t41.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -1814,6 +2418,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t71.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t119.setChecked(false);t41.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -1838,6 +2451,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t72.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t119.setChecked(false);t41.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -1862,6 +2484,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t73.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t119.setChecked(false);t41.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -1886,6 +2517,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t74.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t119.setChecked(false);t41.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -1910,6 +2550,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t75.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t119.setChecked(false);t41.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -1935,6 +2584,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t76.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t119.setChecked(false);t41.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -1959,6 +2617,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t77.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t119.setChecked(false);t41.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -1985,6 +2652,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t78.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t119.setChecked(false);t41.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -2010,6 +2686,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t79.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t119.setChecked(false);t41.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -2034,6 +2719,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t80.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t119.setChecked(false);t41.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -2059,6 +2753,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t81.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t119.setChecked(false);t41.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -2083,6 +2786,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t82.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t119.setChecked(false);t41.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -2107,6 +2819,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t83.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t119.setChecked(false);t41.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -2131,6 +2852,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t84.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t119.setChecked(false);t41.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -2156,6 +2886,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t85.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t119.setChecked(false);t41.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -2180,6 +2919,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t86.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t119.setChecked(false);t41.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -2204,6 +2952,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t87.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t119.setChecked(false);t41.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -2228,6 +2985,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t88.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t119.setChecked(false);t41.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -2252,6 +3018,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t89.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t119.setChecked(false);t41.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -2276,6 +3051,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t90.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t119.setChecked(false);t41.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -2300,6 +3084,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t91.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t119.setChecked(false);t41.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -2324,6 +3117,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t92.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t119.setChecked(false);t41.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -2349,6 +3151,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t93.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t119.setChecked(false);t41.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -2373,6 +3184,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t94.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t119.setChecked(false);t41.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -2397,6 +3217,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t95.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t119.setChecked(false);t41.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -2421,6 +3250,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t96.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t119.setChecked(false);t41.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -2445,6 +3283,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t97.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t119.setChecked(false);t41.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -2470,6 +3317,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t98.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t119.setChecked(false);t41.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -2495,6 +3351,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t99.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t119.setChecked(false);t41.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -2519,6 +3384,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t100.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t119.setChecked(false);t41.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -2544,6 +3418,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t101.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t119.setChecked(false);t41.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -2568,6 +3451,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t102.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t119.setChecked(false);t41.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -2592,6 +3484,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t103.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t119.setChecked(false);t41.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -2616,6 +3517,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t104.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t119.setChecked(false);t41.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -2640,6 +3550,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t105.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t119.setChecked(false);t41.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -2664,6 +3583,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t106.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t119.setChecked(false);t41.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -2688,6 +3616,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t107.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t119.setChecked(false);t41.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -2712,6 +3649,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t108.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t119.setChecked(false);t41.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -2736,6 +3682,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t109.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t119.setChecked(false);t41.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -2760,6 +3715,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t110.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t119.setChecked(false);t41.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -2784,6 +3748,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t111.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t119.setChecked(false);t41.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -2808,6 +3781,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t112.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t119.setChecked(false);t41.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -2832,6 +3814,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t113.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t119.setChecked(false);t41.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -2856,6 +3847,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t114.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t119.setChecked(false);t41.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -2880,6 +3880,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t115.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t119.setChecked(false);t41.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -2904,6 +3913,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t116.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t119.setChecked(false);t41.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -2928,6 +3946,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t117.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t119.setChecked(false);t41.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -2952,6 +3979,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t118.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t119.setChecked(false);t41.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -2976,6 +4012,15 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(t119.isChecked())
                 {
+                    t1.setChecked(false);t2.setChecked(false);t3.setChecked(false);t4.setChecked(false);t5.setChecked(false);t6.setChecked(false);t7.setChecked(false);t8.setChecked(false);t9.setChecked(false);t10.setChecked(false);t11.setChecked(false);t12.setChecked(false);t13.setChecked(false);
+                    t14.setChecked(false);t15.setChecked(false);t16.setChecked(false);t17.setChecked(false);t18.setChecked(false);t19.setChecked(false);t20.setChecked(false);t21.setChecked(false);t22.setChecked(false);t23.setChecked(false);t24.setChecked(false);t25.setChecked(false);t26.setChecked(false);
+                    t27.setChecked(false);t28.setChecked(false);t29.setChecked(false);t30.setChecked(false);t31.setChecked(false);t32.setChecked(false);t33.setChecked(false);t34.setChecked(false);t35.setChecked(false);t36.setChecked(false);t37.setChecked(false);t38.setChecked(false);t39.setChecked(false);
+                    t42.setChecked(false);t43.setChecked(false);t44.setChecked(false);t45.setChecked(false);t46.setChecked(false);t47.setChecked(false);t50.setChecked(false);t51.setChecked(false);t52.setChecked(false);t53.setChecked(false);t118.setChecked(false);
+                    t54.setChecked(false);t55.setChecked(false);t56.setChecked(false);t57.setChecked(false);t58.setChecked(false);t59.setChecked(false);t60.setChecked(false);t61.setChecked(false);t62.setChecked(false);t63.setChecked(false);t64.setChecked(false);t65.setChecked(false);t66.setChecked(false);
+                    t67.setChecked(false);t68.setChecked(false);t69.setChecked(false);t70.setChecked(false);t70.setChecked(false);t71.setChecked(false);t72.setChecked(false);t73.setChecked(false);t74.setChecked(false);t75.setChecked(false);t76.setChecked(false);t77.setChecked(false);t78.setChecked(false);
+                    t79.setChecked(false);t80.setChecked(false);t81.setChecked(false);t82.setChecked(false);t83.setChecked(false);t84.setChecked(false);t85.setChecked(false);t86.setChecked(false);t87.setChecked(false);t88.setChecked(false);t89.setChecked(false);t90.setChecked(false);t91.setChecked(false);
+                    t92.setChecked(false);t93.setChecked(false);t94.setChecked(false);t95.setChecked(false);t96.setChecked(false);t97.setChecked(false);t98.setChecked(false);t99.setChecked(false);t100.setChecked(false);t101.setChecked(false);t102.setChecked(false);t103.setChecked(false);t104.setChecked(false);
+                    t105.setChecked(false);t106.setChecked(false);t107.setChecked(false);t108.setChecked(false);t109.setChecked(false);t110.setChecked(false);t111.setChecked(false);t112.setChecked(false);t113.setChecked(false);t114.setChecked(false);t115.setChecked(false);t116.setChecked(false);t117.setChecked(false);
                     l1.setVisibility(View.VISIBLE);
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
@@ -2984,7 +4029,7 @@ public class MainActivity extends AppCompatActivity {
                             String number=rb.getText().toString();
                             t119.setText(number);
                             t119.setTextOff(number);
-                            t119.setChecked(false);
+                            t119.setChecked(false);t41.setChecked(false);
                         }
                     });
                 }

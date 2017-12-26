@@ -34,12 +34,12 @@ class MyAsync extends AsyncTask <String,TextView,Void>{
             if (response==200)
             {
                 System.out.println("Data Loaded Successfully");
-                mText.setText("Submmission succesfull");
+                mText.setText("Submmission succesful");
             }
         }catch (Exception ex)
         {
             Log.i("Exceptiion", ex.toString());
-            mText.setText("Unsuccesfull Submission");
+            mText.setText("Unsuccesful Submission");
             mText.setTextColor(0xFFEA0F0F);
         }
         return null;
@@ -49,7 +49,7 @@ class MyAsync extends AsyncTask <String,TextView,Void>{
     protected void onPostExecute(Void aVoid) {
         if (response==200)
         {
-            mText.setText("Submmission succesfull");
+            mText.setText("Submmission succesful");
         }
         super.onPostExecute(aVoid);
     }
