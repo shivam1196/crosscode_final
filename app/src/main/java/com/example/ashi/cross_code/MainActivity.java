@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
     TextView mTextView;
     boolean[] questions;
     String e,p,time;
+    String [] cha={"A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"};
     ViewPager mViewPager;
     List<String> ques = new ArrayList<>();
     private static final String FORMAT = "%02d:%02d:%02d";
@@ -179,17 +180,23 @@ public class MainActivity extends AppCompatActivity {
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
+                         //   Toast.makeText(MainActivity.this, i+"", Toast.LENGTH_SHORT).show();
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t1.setText(number);
                             t1.setTextOff(number);
                             t1.setChecked(false);
+                          //  l1.clearCheck();
+
                         }
                     });
+
                 }
                 else
                 {
                     l1.setVisibility(View.INVISIBLE);
+                   // l1.clearCheck();
                 }
             }
         });
@@ -212,8 +219,10 @@ public class MainActivity extends AppCompatActivity {
                     l1.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                         @Override
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
+                          //  Toast.makeText(MainActivity.this, i+"", Toast.LENGTH_SHORT).show();
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t2.setText(number);
                             t2.setTextOff(number);
                             t2.setChecked(false);
@@ -247,6 +256,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t3.setText(number);
                             t3.setTextOff(number);
                             t3.setChecked(false);
@@ -280,7 +290,8 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
-                            t4.setText(number);
+                            rb.setChecked(false);
+                            t4.setText(cha[i]);
                             t4.setTextOff(number);
                             t4.setChecked(false);
                         }
@@ -313,7 +324,8 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
-                            t5.setText(number);
+                            rb.setChecked(false);
+                            t5.setText(cha[i]);
                             t5.setTextOff(number);
                             t5.setChecked(false);
                         }
@@ -346,7 +358,8 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
-                            t6.setText(number);
+                            rb.setChecked(false);
+                            t6.setText(cha[i]);
                             t6.setTextOff(number);
                             t6.setChecked(false);
                         }
@@ -379,7 +392,8 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
-                            t7.setText(number);
+                            rb.setChecked(false);
+                            t7.setText(cha[i]);
                             t7.setTextOff(number);
                             t7.setChecked(false);
                         }
@@ -412,7 +426,8 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
-                            t8.setText(number);
+                            rb.setChecked(false);
+                            t8.setText(cha[i]);
                             t8.setTextOff(number);
                             t8.setChecked(false);
                         }
@@ -445,7 +460,8 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
-                            t9.setText(number);
+                            rb.setChecked(false);
+                            t9.setText(cha[i]);
                             t9.setTextOff(number);
                             t9.setChecked(false);
                         }
@@ -478,7 +494,8 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
-                            t10.setText(number);
+                            rb.setChecked(false);
+                            t10.setText(cha[i]);
                             t10.setTextOff(number);
                             t10.setChecked(false);
                         }
@@ -511,6 +528,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t11.setText(number);
                             t11.setTextOff(number);
                             t11.setChecked(false);
@@ -544,6 +562,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t12.setText(number);
                             t12.setTextOff(number);
                             t12.setChecked(false);
@@ -577,6 +596,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t13.setText(number);
                             t13.setTextOff(number);
                             t13.setChecked(false);
@@ -610,6 +630,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t14.setText(number);
                             t14.setTextOff(number);
                             t14.setChecked(false);
@@ -644,6 +665,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t15.setText(number);
                             t15.setTextOff(number);
                             t15.setChecked(false);
@@ -677,6 +699,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t16.setText(number);
                             t16.setTextOff(number);
                             t16.setChecked(false);
@@ -710,6 +733,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t17.setText(number);
                             t17.setTextOff(number);
                             t17.setChecked(false);
@@ -743,6 +767,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t18.setText(number);
                             t18.setTextOff(number);
                             t18.setChecked(false);
@@ -776,6 +801,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t19.setText(number);
                             t19.setTextOff(number);
                             t19.setChecked(false);
@@ -809,6 +835,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t20.setText(number);
                             t20.setTextOff(number);
                             t20.setChecked(false);
@@ -842,6 +869,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t21.setText(number);
                             t21.setTextOff(number);
                             t21.setChecked(false);
@@ -875,6 +903,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t22.setText(number);
                             t22.setTextOff(number);
                             t22.setChecked(false);
@@ -908,6 +937,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t23.setText(number);
                             t23.setTextOff(number);
                             t23.setChecked(false);
@@ -942,6 +972,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t24.setText(number);
                             t24.setTextOff(number);
                             t24.setChecked(false);
@@ -975,6 +1006,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t25.setText(number);
                             t25.setTextOff(number);
                             t25.setChecked(false);
@@ -1008,6 +1040,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t26.setText(number);
                             t26.setTextOff(number);
                             t26.setChecked(false);
@@ -1041,6 +1074,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t27.setText(number);
                             t27.setTextOff(number);
                             t27.setChecked(false);
@@ -1074,6 +1108,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t28.setText(number);
                             t28.setTextOff(number);
                             t28.setChecked(false);
@@ -1107,6 +1142,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t29.setText(number);
                             t29.setTextOff(number);
                             t29.setChecked(false);
@@ -1140,6 +1176,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t30.setText(number);
                             t30.setTextOff(number);
                             t30.setChecked(false);
@@ -1173,6 +1210,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t31.setText(number);
                             t31.setTextOff(number);
                             t31.setChecked(false);
@@ -1206,6 +1244,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t32.setText(number);
                             t32.setTextOff(number);
                             t32.setChecked(false);
@@ -1239,6 +1278,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t33.setText(number);
                             t33.setTextOff(number);
                             t33.setChecked(false);
@@ -1272,6 +1312,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t34.setText(number);
                             t34.setTextOff(number);
                             t34.setChecked(false);
@@ -1305,6 +1346,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t35.setText(number);
                             t35.setTextOff(number);
                             t35.setChecked(false);
@@ -1338,6 +1380,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t36.setText(number);
                             t36.setTextOff(number);
                             t36.setChecked(false);
@@ -1371,6 +1414,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t37.setText(number);
                             t37.setTextOff(number);
                             t37.setChecked(false);
@@ -1404,6 +1448,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t38.setText(number);
                             t38.setTextOff(number);
                             t38.setChecked(false);
@@ -1438,6 +1483,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t39.setText(number);
                             t39.setTextOff(number);
                             t39.setChecked(false);
@@ -1497,6 +1543,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t41.setText(number);
                             t41.setTextOff(number);
                             t41.setChecked(false);
@@ -1531,6 +1578,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t42.setText(number);
                             t42.setTextOff(number);
                             t42.setChecked(false);
@@ -1565,6 +1613,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t43.setText(number);
                             t43.setTextOff(number);
                             t43.setChecked(false);
@@ -1598,6 +1647,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t44.setText(number);
                             t44.setTextOff(number);
                             t44.setChecked(false);
@@ -1632,6 +1682,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t45.setText(number);
                             t45.setTextOff(number);
                             t45.setChecked(false);
@@ -1666,6 +1717,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t46.setText(number);
                             t46.setTextOff(number);
                             t46.setChecked(false);
@@ -1699,6 +1751,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t47.setText(number);
                             t47.setTextOff(number);
                             t47.setChecked(false);
@@ -1735,6 +1788,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t50.setText(number);
                             t50.setTextOff(number);
                             t50.setChecked(false);
@@ -1768,6 +1822,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t51.setText(number);
                             t51.setTextOff(number);
                             t51.setChecked(false);
@@ -1802,6 +1857,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t52.setText(number);
                             t52.setTextOff(number);
                             t52.setChecked(false);
@@ -1835,6 +1891,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t53.setText(number);
                             t53.setTextOff(number);
                             t53.setChecked(false);
@@ -1868,6 +1925,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t54.setText(number);
                             t54.setTextOff(number);
                             t54.setChecked(false);
@@ -1901,6 +1959,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t55.setText(number);
                             t55.setTextOff(number);
                             t55.setChecked(false);
@@ -1934,6 +1993,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t56.setText(number);
                             t56.setTextOff(number);
                             t56.setChecked(false);
@@ -1968,6 +2028,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t57.setText(number);
                             t57.setTextOff(number);
                             t57.setChecked(false);
@@ -2001,6 +2062,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t58.setText(number);
                             t58.setTextOff(number);
                             t58.setChecked(false);
@@ -2034,6 +2096,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t59.setText(number);
                             t59.setTextOff(number);
                             t59.setChecked(false);
@@ -2067,6 +2130,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t60.setText(number);
                             t60.setTextOff(number);
                             t60.setChecked(false);
@@ -2100,6 +2164,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t61.setText(number);
                             t61.setTextOff(number);
                             t61.setChecked(false);
@@ -2133,6 +2198,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t62.setText(number);
                             t62.setTextOff(number);
                             t62.setChecked(false);
@@ -2166,6 +2232,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t63.setText(number);
                             t63.setTextOff(number);
                             t63.setChecked(false);
@@ -2199,6 +2266,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t64.setText(number);
                             t64.setTextOff(number);
                             t64.setChecked(false);
@@ -2232,6 +2300,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t65.setText(number);
                             t65.setTextOff(number);
                             t65.setChecked(false);
@@ -2265,6 +2334,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t66.setText(number);
                             t66.setTextOff(number);
                             t66.setChecked(false);
@@ -2298,6 +2368,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t67.setText(number);
                             t67.setTextOff(number);
                             t67.setChecked(false);
@@ -2332,6 +2403,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t68.setText(number);
                             t68.setTextOff(number);
                             t68.setChecked(false);
@@ -2365,6 +2437,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t69.setText(number);
                             t69.setTextOff(number);
                             t69.setChecked(false);
@@ -2399,6 +2472,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t70.setText(number);
                             t70.setTextOff(number);
                             t70.setChecked(false);
@@ -2433,6 +2507,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t71.setText(number);
                             t71.setTextOff(number);
                             t71.setChecked(false);
@@ -2466,6 +2541,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t72.setText(number);
                             t72.setTextOff(number);
                             t72.setChecked(false);
@@ -2499,6 +2575,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t73.setText(number);
                             t73.setTextOff(number);
                             t73.setChecked(false);
@@ -2532,6 +2609,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t74.setText(number);
                             t74.setTextOff(number);
                             t74.setChecked(false);
@@ -2565,6 +2643,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t75.setText(number);
                             t75.setTextOff(number);
                             t75.setChecked(false);
@@ -2599,6 +2678,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t76.setText(number);
                             t76.setTextOff(number);
                             t76.setChecked(false);
@@ -2632,6 +2712,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t77.setText(number);
                             t77.setTextOff(number);
                             t77.setChecked(false);
@@ -2667,6 +2748,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t78.setText(number);
                             t78.setTextOff(number);
                             t78.setChecked(false);
@@ -2701,6 +2783,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t79.setText(number);
                             t79.setTextOff(number);
                             t79.setChecked(false);
@@ -2734,6 +2817,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t80.setText(number);
                             t80.setTextOff(number);
                             t80.setChecked(false);
@@ -2768,6 +2852,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t81.setText(number);
                             t81.setTextOff(number);
                             t81.setChecked(false);
@@ -2801,6 +2886,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t82.setText(number);
                             t82.setTextOff(number);
                             t82.setChecked(false);
@@ -2834,6 +2920,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t83.setText(number);
                             t83.setTextOff(number);
                             t83.setChecked(false);
@@ -2867,6 +2954,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t84.setText(number);
                             t84.setTextOff(number);
                             t84.setChecked(false);
@@ -2901,6 +2989,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t85.setText(number);
                             t85.setTextOff(number);
                             t85.setChecked(false);
@@ -2934,6 +3023,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t86.setText(number);
                             t86.setTextOff(number);
                             t86.setChecked(false);
@@ -2967,6 +3057,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t87.setText(number);
                             t87.setTextOff(number);
                             t87.setChecked(false);
@@ -3000,6 +3091,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t88.setText(number);
                             t88.setTextOff(number);
                             t88.setChecked(false);
@@ -3033,6 +3125,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t89.setText(number);
                             t89.setTextOff(number);
                             t89.setChecked(false);
@@ -3066,6 +3159,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t90.setText(number);
                             t90.setTextOff(number);
                             t90.setChecked(false);
@@ -3099,6 +3193,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t91.setText(number);
                             t91.setTextOff(number);
                             t91.setChecked(false);
@@ -3132,6 +3227,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t92.setText(number);
                             t92.setTextOff(number);
                             t92.setChecked(false);
@@ -3166,6 +3262,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t93.setText(number);
                             t93.setTextOff(number);
                             t93.setChecked(false);
@@ -3199,6 +3296,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t94.setText(number);
                             t94.setTextOff(number);
                             t94.setChecked(false);
@@ -3232,6 +3330,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t95.setText(number);
                             t95.setTextOff(number);
                             t95.setChecked(false);
@@ -3265,6 +3364,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t96.setText(number);
                             t96.setTextOff(number);
                             t96.setChecked(false);
@@ -3298,6 +3398,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t97.setText(number);
                             t97.setTextOff(number);
                             t97.setChecked(false);
@@ -3332,6 +3433,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t98.setText(number);
                             t98.setTextOff(number);
                             t98.setChecked(false);
@@ -3366,6 +3468,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t99.setText(number);
                             t99.setTextOff(number);
                             t99.setChecked(false);
@@ -3399,6 +3502,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t100.setText(number);
                             t100.setTextOff(number);
                             t100.setChecked(false);
@@ -3433,6 +3537,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t101.setText(number);
                             t101.setTextOff(number);
                             t101.setChecked(false);
@@ -3466,6 +3571,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t102.setText(number);
                             t102.setTextOff(number);
                             t102.setChecked(false);
@@ -3499,6 +3605,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t103.setText(number);
                             t103.setTextOff(number);
                             t103.setChecked(false);
@@ -3532,6 +3639,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t104.setText(number);
                             t104.setTextOff(number);
                             t104.setChecked(false);
@@ -3565,6 +3673,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t105.setText(number);
                             t105.setTextOff(number);
                             t105.setChecked(false);
@@ -3598,6 +3707,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t106.setText(number);
                             t106.setTextOff(number);
                             t106.setChecked(false);
@@ -3631,6 +3741,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t107.setText(number);
                             t107.setTextOff(number);
                             t107.setChecked(false);
@@ -3664,6 +3775,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t108.setText(number);
                             t108.setTextOff(number);
                             t108.setChecked(false);
@@ -3697,6 +3809,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t109.setText(number);
                             t109.setTextOff(number);
                             t109.setChecked(false);
@@ -3730,6 +3843,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t110.setText(number);
                             t110.setTextOff(number);
                             t110.setChecked(false);
@@ -3763,6 +3877,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t111.setText(number);
                             t111.setTextOff(number);
                             t111.setChecked(false);
@@ -3796,6 +3911,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t112.setText(number);
                             t112.setTextOff(number);
                             t112.setChecked(false);
@@ -3829,6 +3945,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t113.setText(number);
                             t113.setTextOff(number);
                             t113.setChecked(false);
@@ -3862,6 +3979,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t114.setText(number);
                             t114.setTextOff(number);
                             t114.setChecked(false);
@@ -3895,6 +4013,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t115.setText(number);
                             t115.setTextOff(number);
                             t115.setChecked(false);
@@ -3928,6 +4047,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t116.setText(number);
                             t116.setTextOff(number);
                             t116.setChecked(false);
@@ -3961,6 +4081,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t117.setText(number);
                             t117.setTextOff(number);
                             t117.setChecked(false);
@@ -3994,6 +4115,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t118.setText(number);
                             t118.setTextOff(number);
                             t118.setChecked(false);
@@ -4027,6 +4149,7 @@ public class MainActivity extends AppCompatActivity {
                         public void onCheckedChanged(RadioGroup radioGroup, int i) {
                             RadioButton rb =findViewById(i);
                             String number=rb.getText().toString();
+                            rb.setChecked(false);
                             t119.setText(number);
                             t119.setTextOff(number);
                             t119.setChecked(false);t41.setChecked(false);
